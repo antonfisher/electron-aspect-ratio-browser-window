@@ -1,10 +1,18 @@
 # electron-aspect-ratio-browser-window
 
+[![npm version](https://img.shields.io/npm/v/electron-aspect-ratio-browser-window.svg?colorB=brightgreen)](https://www.npmjs.com/package/electron-aspect-ratio-browser-window)
+
 Drop-in replacement for Electron's BrowserWindow with working aspect ratio on
 Windows.
 
 The module addresses this Electron issue:
 https://github.com/electron/electron/issues/8036.
+
+## Installation:
+
+```bash
+npm install --save electron-aspect-ratio-browser-window
+```
 
 ## Usage:
 
@@ -17,6 +25,7 @@ const mainWindow = new AspectRatioBrowserWindow({
     height: 450
 });
 
+// Aspect ratio works on Windows, Linux, and Mac:
 mainWindow.setAspectRatio(16 / 9);
 ```
 
