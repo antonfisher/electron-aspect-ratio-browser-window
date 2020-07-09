@@ -22,8 +22,8 @@ const AspectRatioBrowserWindow = require('electron-aspect-ratio-browser-window')
 
 // AspectRatioBrowserWindow instead of BrowserWindow:
 const mainWindow = new AspectRatioBrowserWindow({
-    width: 800,
-    height: 450
+  width: 800,
+  height: 450
 });
 
 // Aspect ratio works on Windows, Linux, and Mac:
@@ -33,7 +33,19 @@ mainWindow.setAspectRatio(16 / 9);
 ## Try example:
 
 ```bash
-cd example
+git clone https://github.com/antonfisher/electron-aspect-ratio-browser-window.git
+cd electron-aspect-ratio-browser-window/example
 npm install
 npm start
 ```
+
+## Features:
+
+- utilizes Winuser.h resize hook: https://docs.microsoft.com/en-us/windows/win32/winmsg/wm-sizing
+- supports different screen scales: 100-125-150% setting on Windows.
+
+## Thanks:
+
+This module was inspired by two responses on the original issue:
+- https://github.com/electron/electron/issues/8036#issuecomment-648642719 by @asc0910
+- https://github.com/electron/electron/issues/8036#issuecomment-649161348 by @swimauger
