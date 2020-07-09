@@ -47,5 +47,5 @@ npm start
 ## Thanks:
 
 This module was inspired by two responses on the original issue:
-- https://github.com/electron/electron/issues/8036#issuecomment-648642719 by @asc0910
-- https://github.com/electron/electron/issues/8036#issuecomment-649161348 by @swimauger
+- https://github.com/electron/electron/issues/8036#issuecomment-648642719 by [@asc0910](https://github.com/asc0910)
+- https://github.com/electron/electron/issues/8036#issuecomment-649161348 by [@swimauger](https://github.com/swimauger)
