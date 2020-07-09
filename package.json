@@ -1,0 +1,29 @@
+{
+  "name": "electron-aspect-ratio-browser-window",
+  "version": "0.0.1",
+  "description": "Drop-in replacement for Electron's BrowserWindow with working aspect ratio on Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonfisher/electron-aspect-ratio-browser-window.git"
+  },
+  "keywords": [
+    "electron",
+    "BrowserWindow",
+    "windows",
+    "win32",
+    "aspect ratio"
+  ],
+  "author": "Anton Fisher <a.fschr@gmail.com> (http://antonfisher.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonfisher/electron-aspect-ratio-browser-window/issues"
+  },
+  "homepage": "https://github.com/antonfisher/electron-aspect-ratio-browser-window#readme",
+  "peerDependencies": {
+    "electron": "^6"
+  }
+}
