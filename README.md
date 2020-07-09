@@ -1,6 +1,7 @@
 # electron-aspect-ratio-browser-window
 
 [![npm version](https://img.shields.io/npm/v/electron-aspect-ratio-browser-window.svg?colorB=brightgreen)](https://www.npmjs.com/package/electron-aspect-ratio-browser-window)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 Drop-in replacement for Electron's BrowserWindow with working aspect ratio on
 Windows.
