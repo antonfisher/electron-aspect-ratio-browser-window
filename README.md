@@ -9,6 +9,13 @@ Windows.
 The module addresses this Electron issue:
 https://github.com/electron/electron/issues/8036.
 
+> **Warning**: this package extends BrowserWindow, that approach doesn't work
+  properly with some Electron API,
+  [more here](https://github.com/electron/electron/issues/23#issuecomment-1961324).
+  Underline code can still be used to implement custom Window class that
+  doesn't extend BrowserWindow but keeps reference to it (idea for next version
+  of this library!)
+
 ## Installation:
 
 ```bash
