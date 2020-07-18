@@ -1,6 +1,6 @@
 {
   "name": "electron-aspect-ratio-browser-window",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Drop-in replacement for Electron's BrowserWindow with working aspect ratio on Windows",
   "main": "index.js",
   "types": "index.d.ts",
