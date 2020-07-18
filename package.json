@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Drop-in replacement for Electron's BrowserWindow with working aspect ratio on Windows",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
