@@ -4,6 +4,6 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^9"
+    "electron": "^13"
   }
 }
